@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
+<body>
+  <nav style="display: flex; width: 100%; justify-content: space-between; padding: 20px; align-items: center;">
+    <div class="left-menu" style="display: flex; align-items: center;">
+      <div class="left-icon" style="margin-right: 30px; display: flex; align-items: center;">
+        <div style="width: 30px; aspect-ratio: 1; border-radius: 50%; border: 1px solid #000; margin-right: 10px;">
+        </div>
+        <span class="username">Curriculum Vitae</span>
+      </div>
+
+      <ul class="list-nav" style="display: flex; column-gap: 10px; list-style: none;">
+        <li>
+          <a href="#">Biodata</a>
+        </li>
+        <li>
+          <a href="#">Project</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="right-icon" style="display: flex;">
+      <div style="position: relative; margin-right: 15px;">
+        <i class="fa-solid fa-magnifying-glass" style="position: absolute; left: 5px; top: 5px; font-size: 13px;"></i>
+        <input type="search" class="search" style="padding: 2px; border-radius: 5px; padding-left: 20px;"
+          placeholder="cari...">
+      </div>
+      <!-- <a href="#"><u>Cart (1)</u></a> -->
+    </div>
+  </nav>
+  <hr>
+
+  <main>
+    <!-- Produk -->
+    <section style="padding: 20px; display: flex; flex-direction: column; align-items: center;">
+      <!-- Breadcrumbs -->
+      <div style="display: flex; column-gap: 5px;">
+        <a href="#">Home</a> >
+        <span>Biodata</span>
+      </div>
+
+      <!-- Top section -->
+      <div style="display: flex; width: 100%; margin-top: 20px;">
+        <!-- Left Pic -->
+        <div style="width: 40%; padding: 5px; display: flex; flex-direction: column; align-items: center;">
+          <div>
+            <h3>Profile Picture</h3>
+          </div>
+          <img src="./assets/x-profil.png"
+            style=" width: 200px; aspect-ratio: 1; border-radius: 50%; border: 1px solid #000;">
+          <div style="margin-top: 20px; display: flex; column-gap: 15px;">
+            <img src="./assets/x-placeholder.png" style="width: 50px; aspect-ratio: 1; border: 1px solid #000;">
+            <img src="./assets/x-placeholder.png" style="width: 50px; aspect-ratio: 1; border: 1px solid #000;">
+            <img src="./assets/x-placeholder.png" style="width: 50px; aspect-ratio: 1; border: 1px solid #000;">
+          </div>
+        </div>
+
+        <!-- Right Product -->
+        <div style="width: 60%; padding: 5px;">
+          <h1>Raffi Ramadhan Tajudin</h1>
+          <h4 style="margin-top: 10px;"><i class="fa-solid fa-envelope"></i> <a
+              href="mailto:raffiirmdhnt@gmail.com">raffiirmdhnt@gmail.com</a></h4>
+          <h5 style="margin-top: 10px;"><i class="fa-solid fa-phone"></i> <u>08829988****</u></h5>
+          <h4 style="margin-top: 20px;">Short Resume</h4>
+          <div style="margin-top: 10px; display: flex; flex-direction: column; row-gap: 10px;">
+            <p>My name is Raffi Ramadhan Tajudin, and I graduated from SMK Negeri 1 Depok, specializing in Software
+              Engineering. I have one year of experience as a freelance full-stack web developer. Throughout my career,
+              I have worked with various technologies, including Golang, Next.js, React.js, Laravel, CodeIgniter,
+              Phalcon, Bootstrap, Tailwind, and jQuery.</p>
+
+            <p>As I continue to develop my skills, I am excited about the prospect of collaborating on innovative
+              projects and contributing to the ever-evolving field of web development.</p>
+
+            <p>Currently, I am also interested in cybersecurity, as I believe it is essential for creating secure
+              applications and protecting users' data.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

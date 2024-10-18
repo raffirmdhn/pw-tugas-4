@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Produk</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+
+<body>
+  <nav style="display: flex; width: 100%; justify-content: space-between; padding: 20px; align-items: center;">
+    <div class="left-menu" style="display: flex; align-items: center;">
+      <div class="left-icon" style="margin-right: 30px; display: flex; align-items: center;">
+        <div style="width: 30px; aspect-ratio: 1; border-radius: 50%; border: 1px solid #000; margin-right: 10px;">
+        </div>
+        <span class="username">NFStore.com</span>
+      </div>
+
+      <ul class="list-nav" style="display: flex; column-gap: 10px; list-style: none;">
+        <li>
+          <a href="#">Fashion Pria</a>
+        </li>
+        <li>
+          <a href="#">Fashion Wanita</a>
+        </li>
+        <li>
+          <a href="#">Fashion Muslim</a>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="right-icon" style="display: flex;">
+      <div style="position: relative; margin-right: 15px;">
+        <i class="fa-solid fa-magnifying-glass" style="position: absolute; left: 5px; top: 5px; font-size: 13px;"></i>
+        <input type="search" class="search" style="padding: 2px; border-radius: 5px; padding-left: 20px;"
+          placeholder="cari...">
+      </div>
+      <a href="#"><u>Cart (1)</u></a>
+    </div>
+  </nav>
+  <hr>
+
+  <main>
+    <!-- Produk -->
+    <section style="padding: 20px; display: flex; flex-direction: column; align-items: center;">
+      <!-- Breadcrumbs -->
+      <div style="display: flex; column-gap: 5px;">
+        <a href="#">Home</a> >
+        <a href="#">Fashion Pria</a> >
+        <span>Kaos Programmer</span>
+      </div>
+
+      <!-- Top section -->
+      <div style="display: flex; width: 100%; margin-top: 20px;">
+        <!-- Left Pic -->
+        <div style="width: 40%; padding: 5px; display: flex; flex-direction: column; align-items: center;">
+          <img src="./assets/x-placeholder.png" style="width: 50%; height: 300px; border: 1px solid #000;">
+          <div style="margin-top: 20px; display: flex; column-gap: 15px;">
+            <img src="./assets/x-placeholder.png" style="width: 70px; aspect-ratio: 1; border: 1px solid #000;">
+            <img src="./assets/x-placeholder.png" style="width: 70px; aspect-ratio: 1; border: 1px solid #000;">
+            <img src="./assets/x-placeholder.png" style="width: 70px; aspect-ratio: 1; border: 1px solid #000;">
+          </div>
+          <button style="margin-top: 20px; padding: 10px 25px;">Pesan</button>
+        </div>
+
+        <!-- Right Product -->
+        <div style="width: 60%; padding: 5px;">
+          <h1>Kaos Web Developer</h1>
+          <h4 style="margin-top: 10px;">Rp. 85.000</h4>
+          <h5 style="margin-top: 10px;">****** 2 Ulasan</h5>
+          <h4 style="margin-top: 20px;">Pilih varian:</h4>
+          <div style="margin-top: 10px;">
+            <span style="font-size: 14px;">Warna</span>
+            <div style="display: flex; column-gap: 30px;font-size: 12px;">
+              <div style="text-align: center;">
+                <div style="width: 50px; aspect-ratio: 1; border-radius: 10px; border: 1px solid #000;"></div>
+                <span>Hitam</span>
+              </div>
+              <div style="text-align: center;">
+                <div style="width: 50px; aspect-ratio: 1; border-radius: 10px; border: 1px solid #000;"></div>
+                <span>Putih</span>
+              </div>
+              <div style="text-align: center;">
+                <div style="width: 50px; aspect-ratio: 1; border-radius: 10px; border: 1px solid #000;"></div>
+                <span>Navy</span>
+              </div>
+              <div style="text-align: center;">
+                <div style="width: 50px; aspect-ratio: 1; border-radius: 10px; border: 1px solid #000;"></div>
+                <span>Army</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top: 10px;">
+            <span style="font-size: 14px;">Ukuran</span>
+            <div style="display: flex; column-gap: 30px; font-size: 12px;">
+              <div>
+                <div style="padding: 5px; width: 45px; aspect-ratio: 1; border-radius: 10px; border: 1px solid #000;">M
+                </div>
+              </div>
+              <div>
+                <div style="padding: 5px; width: 45px; aspect-ratio: 1; border-radius: 10px; border: 1px solid #000;">L
+                </div>
+              </div>
+              <div>
+                <div style="padding: 5px; width: 45px; aspect-ratio: 1; border-radius: 10px; border: 1px solid #000;">XL
+                </div>
+              </div>
+              <div>
+                <div style="padding: 5px; width: 45px; aspect-ratio: 1; border-radius: 10px; border: 1px solid #000;">
+                  XXL</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Section -->
+      <div style="width: 80%; margin-top: 30px;">
+        <h3>Deskripsi Produk</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias nisi illo quisquam asperiores sed in, soluta
+          atque non maiores nemo distinctio ea cum officiis, nesciunt necessitatibus repellat veniam itaque veritatis
+          vel, quasi iure quo. Quaerat vero quibusdam soluta sit esse nostrum tenetur architecto suscipit error quasi.
+          Mollitia, fuga suscipit quia numquam voluptatem officia dolores iure aliquam nisi error magnam in. Quos
+          adipisci pariatur obcaecati aut fugit dolorem fuga nisi eveniet?</p>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
